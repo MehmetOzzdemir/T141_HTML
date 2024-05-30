@@ -26,24 +26,34 @@
                     <form action="saveToDb.aspx">
                         <div class="form-row" id="firstname">
                             <label for="firstname">Firstname</label>
-                        </div> <input type="text" name="firstname">
+                        </div> <input type="text" name="firstname" placeholder="Mehmet">
 
 
                         <div class="form-row" id="lastname">
                             <label for="lastname">Lastname</label>
-                        </div> <input type="text" name="lastname">
+                        </div> <input type="text" name="lastname" placeholder="ozdemir">
 
                         <div class="form-row" id="email">
                             <label for="email">E-Mail</label>
-                        </div><input type="email" name="email">
+                        </div><input type="email" name="email" placeholder="johndo@gmail.com">
 
-                        <div class="form-row" id="phone">
+                        <div class="form-row" id="phone" >
                             <label for="phone">Phone</label>
-                        </div> <input type="tel" name="phone">
+                        </div> <input type="tel" name="phone" placeholder="+905323253232">
+
+                        <div class="form-row" id="city">
+                            <select name="city">
+                                <option value="1">İstanbul</option>
+                                <option value="2">İzmir</option>
+                                <option value="3">Ankara</option>
+                                <option value="4">Çanakakale</option>
+                            </select>
+                        </div>
+
                         
                         <div class="form-row" id="message">
                             <label for="message">Your Message : </label>
-                        </div><textarea name="message" cols="20" rows="10"></textarea>
+                        </div><textarea name="message" placeholder="Message" cols="20" rows="10"></textarea>
                         <br>
                         <button type="submit">SEND</button>
                         <button type="reset">CLEAR</button>
