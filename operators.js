@@ -24,6 +24,7 @@ let f = 20;
  // ! : degil anlami katar
 
  //incremen ve deincrement yapilir 
+ 
  let x = 100;
  x+=25;
  console.log(x)
